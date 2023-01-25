@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head></head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Untitled-1.css">
+    <title>Olly's Bakery</title>
+    </head>
+        <body>
+            <style>
+                body {
+                    background-image: url(back.jpg);
+                    background-size: cover;
+                }
+            </style>
+            <div class="app">
+
+                <div class="menu-toggle">
+                    <div class="hamburger">
+                        <span></span>
+                    </div>
+                </div>
+
+                <aside class="sidebar">
+
+                    <h3>Menu</h3>
+
+                    <nav class="menu">
+                        <a href="#" class="menu-item is-active">Home</a>
+                        <a href="#" class="menu-item">About</a>
+                        <a href="#" class="menu-item">Our Mission</a>
+                        <a href="#" class="menu-item">Contact</a>
+                    </nav>
+                    <img class="tastee_img" src="logo.png" >
+                    <a href="#"><img class="IG" src="insta.png"></a>
+                    <a href="#"><img class="TWI" src="twitter.png"></a>
+                    <a href="#"><img class="YT" src="youtube.png"></a>
+                    <a href="#"><img class="FB" src="facebook.png"></a>
+                </aside>
+
+                <main class="content">
+                    <h1>Tastee.</h1>
+                    <h2>Whatever bakes your cake.</h2>
+                </main>
+
+            </div>
+            <div class="second_page">
+                <h1 class="store">Whats In Store?</h1>
+                <div class="image1">
+                    <img class="item1" src="bread.jpg" >
+                    <div class="image1_overlay">
+                        <div class="image1_title">Baguette Le Frampe</div>
+                        <p class="text1">Our Crustiest Baguettes, Hand Made By Only The <br> Finest Bakers, Created With Love.</p>
+                    </div>
+                </div>
+                <div class="image2">
+                    <img class="item2" src="spiral.jpg" >
+                    <div class="image2_overlay">
+                        <div class="image2_title">Cinammon Swirls</div>
+                        <p class="text2">Our Delightful Swirls, Coated with a sweet, sugary <br> glaze leaving your mouth begging for more..</p>
+                    </div>
+                </div>
+                <br>
+                <div class="image3">
+                    <img class="item3" src="cupcake.jpg" >
+                    <div class="image3_overlay">
+                        <div class="image3_title">Colourful Cupcakes</div>
+                        <p class="text3">Our Delicious Cupcakes, baked with love and care <br> topped off with a honey glaze.</p>
+                    </div>
+                </div>
+                <div class="image4">
+                    <img class="item4" src="bun.jpg" >
+                    <div class="image4_overlay">
+                        <div class="image4_title">Buns</div>
+                        <p class="text4">Add Text<br> Add Text</p>
+                    </div>
+                </div>
+                <br>
+                <div class="image5">
+                    <img class="item5" src="pancakes.jpg" >
+                    <div class="image5_overlay">
+                        <div class="image5_title">Pancakes</div>
+                        <p class="text5">Add Text<br> Add Text</p>
+                    </div>
+                </div>
+                <div class="image6">
+                    <img class="item6" src="donuts.jpg" >
+                    <div class="image6_overlay">
+                        <div class="image6_title">Donuts</div>
+                        <p class="text6">Add Text<br> Add Text</p>
+                    </div>
+                </div>
+                <br>
+                <div class="image7">
+                    <img class="item7" src="croissant.jpg" >
+                    <div class="image7_overlay">
+                        <div class="image7_title">Croissant</div>
+                        <p class="text7">Add Text<br> Add Text</p>
+                    </div>
+                </div>
+                <div class="image8">
+                    <img class="item8" src="tart.jpg" >
+                    <div class="image8_overlay">
+                        <div class="image8_title">Tart</div>
+                        <p class="text8">Add Text<br> Add Text</p>
+                    </div>
+                </div>
+                <br>
+                <div class="image9">
+                    <img class="item9" src="pretzel.jpg" >
+                    <div class="image9_overlay">
+                        <div class="image9_title">Pretzel</div>
+                        <p class="text9">Add Text<br> Add Text</p>
+                    </div>
+                </div>
+                <div class="image10">
+                    <img class="item10" src="sticks.jpg" >
+                    <div class="image10_overlay">
+                        <div class="image10_title">Breadsticks</div>
+                        <p class="text10">Add Text<br> Add Text</p>
+                    </div>
+                </div>
+                <br>
+                <div class="image11">
+                    <img class="item11" src="slices.jpg" >
+                    <div class="image11_overlay">
+                        <div class="image11_title">Bread Loaf</div>
+                        <p class="text11">Add Text<br> Add Text</p>
+                    </div>
+                </div>
+                <div class="image12">
+                    <img class="item12" src="macaroons.jpg" >
+                    <div class="image12_overlay">
+                        <div class="image12_title">I dont know</div>
+                        <p class="text12">Add Text<br> Add Text</p>
+                    </div>
+                </div>
+            </div>
+             
+        <script>
+
+            const menu_toggle = document.querySelector('.menu-toggle');
+            const sidebar = document.querySelector('.sidebar');
+
+            menu_toggle.addEventListener('click', () => {
+                menu_toggle.classList.toggle('is-active');
+                sidebar.classList.toggle('is-active');
+            })
+
+
+        </script>
+        </body>
+</html>
